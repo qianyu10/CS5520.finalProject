@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "967973653681",
+    "firebase_url": "https://pethome-254f8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pethome-254f8",
+    "storage_bucket": "pethome-254f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967973653681:android:5e6cb654bf3be961df6690",
+        "android_client_info": {
+          "package_name": "com.project.xiangmu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHmslVAKdOu466r2Yt_pFHZbgxPYZo2SE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
