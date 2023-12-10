@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toobar"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Pet Home is a heartwarming social platform dedicated to pet enthusiasts,
+        allowing them to effortlessly share adorable pictures and stories of their beloved pets.
+        On Pet Home, you can explore tender moments from other pet families, follow your favorite
+        pets, and express your love through likes and comments. Whether it's the fluffy cats,
+        the loyal dogs, or the charming little animals, Pet Home provides a stage for them to
+        showcase their charisma. Join Pet Home and share joy with pet lovers worldwide!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
