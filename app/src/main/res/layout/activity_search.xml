@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toobar"/>
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:background="@drawable/search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40">
+        <EditText
+            android:id="@+id/et_input"
+            android:background="@drawable/et_bg"
+            android:singleLine="true"
+            android:paddingLeft="@dimen/dp_15"
+            android:hint="Type in friend's info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/serach"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18"
+            android:text="search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="@dimen/dp_20"
+        android:id="@+id/rl_friend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

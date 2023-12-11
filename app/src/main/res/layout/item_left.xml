@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/white"
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="dfd"
+        android:textColor="@color/color_999999"
+        android:textSize="12sp"
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/headone"
+            android:id="@+id/head"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:visibility="visible"></ImageView>
+
+        <TextView
+            android:text="dkjfdskjfljds"
+            android:layout_toLeftOf="@+id/head"
+            android:id="@+id/chat_item_content_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape_chat_left"
+            android:lineSpacingExtra="4dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/color_333333"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
