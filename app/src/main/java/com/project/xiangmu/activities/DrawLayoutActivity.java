@@ -18,7 +18,10 @@ import com.google.android.material.navigation.NavigationView;
 import com.project.xiangmu.App;
 import com.project.xiangmu.R;
 import com.project.xiangmu.adapter.MainPagerAdapter;
+import com.project.xiangmu.fragment.TabLianxirenFragment;
 import com.project.xiangmu.fragment.TabMineFragment;
+import com.project.xiangmu.fragment.TabZyFragment;
+import com.project.xiangmu.fragment.TanCircleFragment;
 import com.project.xiangmu.widget.CircleImageView;
 import com.project.xiangmu.widget.NoScrollViewPager;
 

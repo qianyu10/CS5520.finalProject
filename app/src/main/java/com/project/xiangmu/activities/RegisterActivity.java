@@ -67,8 +67,7 @@ public class RegisterActivity extends BaseActivity {
                 userBean.setUser_id(System.currentTimeMillis() + "");
                 userBean.setName(name);
                 userBean.setPassword(pwd);
-                userBean.setHead_url("https://pic1.zhimg.com/80/v2-0051dad77dcbe85d8c51e148387a3424_720w.webp");
-                userBean.student_num = no;
+                userBean.setHead_url("https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg");                userBean.student_num = no;
                 userBean.setStudent_num(no);
                 Map<String, Object> map = App.mUserMap;
                 if (map == null || map.size() == 0) {

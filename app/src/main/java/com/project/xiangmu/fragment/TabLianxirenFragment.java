@@ -109,7 +109,7 @@ public class TabLianxirenFragment extends LazyTwoFragment implements OnFriendLis
     @Override
     public void onCLick(Friend friend) {
         Intent intent = new Intent(getActivity(), ChatDetailAct.class);
-        friend.setChat("已聊天");
+        friend.setChat("chat");
         mMap.put(friend.getId(), new Gson().toJson(friend));
         App.mDatabase.child("friend").setValue(mMap);
         if (App.getInstance().userBean.getName().equals(friend.getHaoyouname())) {

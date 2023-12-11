@@ -14,6 +14,7 @@ import androidx.annotation.Nullable;
 import com.gyf.immersionbar.ImmersionBar;
 
 import com.project.xiangmu.R;
+import com.project.xiangmu.entity.EventMessage;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
 import butterknife.ButterKnife;

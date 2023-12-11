@@ -6,15 +6,13 @@ import android.os.Bundle;
 
 import com.gyf.immersionbar.components.ImmersionFragment;
 import com.project.xiangmu.R;
+import com.project.xiangmu.entity.EventMessage;
 
 
 import de.greenrobot.event.EventBus;
 import de.greenrobot.event.Subscribe;
 import de.greenrobot.event.ThreadMode;
 
-/**
- * Created by jingke on 2019/2/28.
- */
 public class BaseFragment extends ImmersionFragment {
 
 

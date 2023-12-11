@@ -14,6 +14,7 @@ import com.project.xiangmu.App;
 import com.project.xiangmu.R;
 import com.project.xiangmu.activities.AboutActivity;
 import com.project.xiangmu.activities.ChangeUserInfoActivity;
+import com.project.xiangmu.activities.SendLuntanActivity;
 import com.project.xiangmu.activities.UserInfoActivity;
 import com.project.xiangmu.base.LazyFragment;
 import com.project.xiangmu.widget.CircleImageView;
@@ -119,9 +120,9 @@ public class TabMineFragment extends LazyFragment {
 
     protected void dialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setMessage("确认退出吗？");
-        builder.setTitle("提示");
-        builder.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+        builder.setMessage("Do you confirm to exit");
+        builder.setTitle("Exit App");
+        builder.setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
@@ -134,7 +135,7 @@ public class TabMineFragment extends LazyFragment {
                 }
             }
         });
-        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();

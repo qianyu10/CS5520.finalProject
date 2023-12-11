@@ -14,7 +14,6 @@ import androidx.appcompat.widget.AppCompatTextView;
 /**
  * 文件名：CountdownView
  * 作  者：
- * 日  期：1/21/22 11:27 AM
  * 描述：启动页倒计时按钮
  */
 public class CountdownView extends AppCompatTextView {

@@ -25,7 +25,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="10dp"
-            android:text="Comment"
+            android:text="Send"
             android:textColor="@color/black"
             android:id="@+id/tv_pinglun"
             android:textSize="16sp"

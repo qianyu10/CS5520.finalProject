@@ -2,7 +2,6 @@ package com.project.xiangmu.utils;
 
 /**
  * @author hao
- * @date 2015-9-18
  * @description 字符串工具类
  */
 public class StringUtil {

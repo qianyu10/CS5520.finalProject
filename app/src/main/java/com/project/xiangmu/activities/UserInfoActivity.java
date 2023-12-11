@@ -12,6 +12,7 @@ import com.google.gson.Gson;
 import com.project.xiangmu.App;
 import com.project.xiangmu.R;
 import com.project.xiangmu.base.BaseActivity;
+import com.project.xiangmu.entity.EventMessage;
 import com.project.xiangmu.widget.CircleImageView;
 import com.wildma.pictureselector.PictureBean;
 import com.wildma.pictureselector.PictureSelector;
